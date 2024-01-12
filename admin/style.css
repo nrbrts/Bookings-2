@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Source%20Sans%20Pro:wght@400;700&display=swap');
+*{
+    margin: 0px;
+    margin-top: 0px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.header {
+    background-color: white;
+    width: 97%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 20px;
+}
+.button-home{
+    margin-left: 20px;
+    padding: 10px 20px;
+    background-color: purple; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.button {
+    margin-left: 20px;
+    padding: 10px 20px;
+    background-color: purple; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.button-delete{
+    margin-left: 20px;
+    padding: 8px 16px;
+    background-color: purple; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.button:hover {
+    background-color: #FFA500;
+    color: black;
+}
+.main{
+    background-color: white;
+    height: 2000px;
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+@media screen and (max-width: 320px) {
+    body {
+        flex-direction: column;
+    }
+    .header {
+        height: 60px;
+        padding-left: 10px;
+    }
+    .button {
+        margin-left: 10px;
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+    .main {
+        height: 100%;
+        width: 100%;
+    }
+}
+.boxes{
+    height: 400px;
+    width: 350px;
+    border: 2px solid purple;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+.boxes-half{
+    display: flex;
+    height: 80%;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.boxes-half-2{
+    display: flex;
+    height: 20%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.boxes-insert{
+    border: 1px solid black;
+    height: 350px;
+    width: 330px;
+}
+.boxes-insert-half{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxes-insert-half-2{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.boxes-insert-half-half{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boxes-insert-half-half-2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-field{
+    height: 15px;
+    width: 120px;
+}
+.input-field-2{
+    height: 15px;
+    width: 80px;
+}
+.info-main{
+    height: 100%;
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    justify-content: center;
+}
+.info-box{
+    height: 500px;
+    width: 50%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+.info-box-half{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.info-box-half-2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.info-box-half-half2{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+}
+.login-box{
+    border: 1px solid;
+    height: 350px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.register-box{
+    border: 1px solid;
+    height: 400px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.input-field-login{
+    width: 250px;
+    border: 1px solid green;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.input-field-register{
+    width: 400px;
+    border: 1px solid green;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.reservation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+.reservation-box{
+    border: 1px solid red;
+    height: 350px;
+    width: 300px;
+}
+.reservation-form-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
